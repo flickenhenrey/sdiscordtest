@@ -1,0 +1,26 @@
+/* ... Keep existing styles ... */
+
+.sidebar-header h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #949ba4;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+/* Adjustments for inputs in sidebar */
+.search-area button {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* Message styling for group chat distinction */
+.msg b {
+    color: #00aff4;
+    cursor: default;
+}
+
+/* Scrollbar styling for a cleaner look */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #1e1f22; border-radius: 4px; }
